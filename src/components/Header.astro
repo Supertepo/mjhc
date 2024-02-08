@@ -1,21 +1,35 @@
-<header >
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="container-fluid">
-        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MJH</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link btn btn-outline-secondary Sombra" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link btn btn-outline-secondary Sombra" href="Proyectos.html">Proyectos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-      
-  </header>
+<header
+  class={`
+    flex justify-center items-center
+    mx-auto
+    py-5
+    sticky top-0
+    w-full xl:w-[1120px]
+    z-10
+  `}
+>
+  <nav
+    class={`
+      rounded-full
+      lg:px-3 py-1
+      flex flex-row items-center
+      backdrop-blur-xl
+      shadow-lg
+      shadow-red-950
+      bg-red-950		
+    `}
+  >
+    <a
+      class="text-white hover:bg-white/10 rounded-full px-2 lg:px-3 transition"
+      href="/">Inicio</a
+    >
+    <a
+      class="text-white hover:bg-white/10 rounded-full px-2 lg:px-3 transition"
+      href="/proyectos">Proyectos</a
+    >
+    <a
+      class="text-white hover:bg-white/10 rounded-full px-2 lg:px-3 transition"
+      href="/#Contacto">Contacto</a
+    >
+  </nav>
+</header>

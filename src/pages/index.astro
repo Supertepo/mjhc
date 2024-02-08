@@ -1,11 +1,25 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import About from "@/components/About.astro";
+import Contacto from "@/components/Contacto.astro";
+import Layout from "../layouts/Layout.astro";
+import Mision from "@/components/Mision.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import Vision from "@/components/Vision.astro";
 ---
 
 <Layout title="MJHConstrucciones">
-	
+  <SectionContainer>
+    <About />
+  </SectionContainer>
+  <SectionContainer class="flex flex-row">
+    <SectionContainer class="mx-4">
+      <Mision />
+    </SectionContainer>
+    <SectionContainer class="mx-4">
+      <Vision />
+    </SectionContainer>
+  </SectionContainer>
+  
 </Layout>
 
-<style>
-	
-</style>
+<style></style>
