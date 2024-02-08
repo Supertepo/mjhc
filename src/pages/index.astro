@@ -1,6 +1,6 @@
 ---
 import About from "@/components/About.astro";
-import Contacto from "@/components/Contacto.astro";
+import Card from "@/components/Card.astro";
 import Layout from "../layouts/Layout.astro";
 import Mision from "@/components/Mision.astro";
 import SectionContainer from "@/components/SectionContainer.astro";
@@ -12,14 +12,13 @@ import Vision from "@/components/Vision.astro";
     <About />
   </SectionContainer>
   <SectionContainer class="flex flex-col md:flex-row">
-    <div class="mx-4">
+    <Card class="mx-4 dark:bg-blue-600 dark:border-blue-800 shadow-blue-950">
       <Mision />
-    </div>
-    <div class="mx-4">
+    </Card>
+    <Card class="mx-4 dark:bg-blue-600 dark:border-blue-800 shadow-blue-950">
       <Vision />
-    </div>
+    </>
   </SectionContainer>
-  
 </Layout>
 
 <style></style>
