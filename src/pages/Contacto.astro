@@ -1,0 +1,43 @@
+---
+import Card from "@/components/Card.astro";
+import Mail from "@/components/icons/Mail.astro";
+import Movil from "@/components/icons/Movil.astro";
+import Phone from "@/components/icons/Phone.astro";
+import SocialPill from "@/components/SocialPill.astro";
+
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Contacto">
+  <Card
+    class="text-pretty font-semibold mx-4 dark:bg-red-300 dark:border-red-500 shadow-red-950 mb-8 md:mb-0"
+  >
+    <h3 class="text-2xl">Contacto</h3>
+    <div class="uppercase">
+      <span class="text-[#7a1b0c]"> MANUEL JUÁREZ HERNÁNDEZ.</span>
+      <br />
+      <h4 class="text-lg uppercase">Oficina</h4>
+      <span class="text-[#7a1b0c]">
+        DIEGO DE ORDAZ #64, FRACC. REFORMA C.P. 91919 VERACRUZ, VER.</span
+      >
+      <br />
+      <h4 class="text-lg uppercase">Taller</h4>
+      <span class="text-[#7a1b0c]">
+        Av. Ejército Mexicano Ote. 235-A, Primero de Mayo Nte, 94297 Veracruz,
+        Ver.
+      </span>
+      <br />
+      <SocialPill href="mailto:mjhindustrial@gmail.com">
+        <Mail /> mjhindustrial@gmail.com
+      </SocialPill>
+      <SocialPill href="tel:2293569920"><Movil /> 2293 569 920</SocialPill>
+      <br />
+      <h4 class="text-lg uppercase">Oficina</h4>
+      <SocialPill href="tel:2293753657">
+        <Phone />2293 753 657
+      </SocialPill><SocialPill href="tel:5587908054">
+        <Phone />5587 908 054
+      </SocialPill>
+    </div>
+  </Card>
+</Layout>
