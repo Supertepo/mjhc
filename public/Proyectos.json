@@ -1,0 +1,17 @@
+[
+  {
+    "Titulo": "AGENCIA CHIREY BOCA DEL RIO, VER",
+    "Descripcion": "REMODELACIÓN QUE INCLUYEN ESTRUCTURA METÁLICA, OBRA CIVIL, INSTALACIONES Y ACABADOS",
+    "Fotos": ["Chirey1.jpg", "Chirey2.jpg", "Chirey3.jpg", "Chirey4.jpg"]
+  },
+  {
+    "Titulo": "AGENCIA HONDA ALCALDIA COYOACÁN, CDMX",
+    "Descripcion": "REMODELACIÓN QUE INCLUYEN ESTRUCTURA METÁLICA, OBRA CIVIL, INSTALACIONES Y ACABADOS",
+    "Fotos": ["Honda1.jpg", "Honda2.jpg", "Honda3.jpg", "Honda4.jpg"]
+  },
+  {
+    "Titulo": "AGENCIA MG ALCALDIA COYOACÁN, CDMX",
+    "Descripcion": "REMODELACIÓN QUE INCLUYEN ESTRUCTURA METÁLICA, OBRA CIVIL, INSTALACIONES Y ACABADOS",
+    "Fotos": ["MG1.jpg", "MG2.jpg", "MG3.jpg", "MG4.jpg"]
+  }
+]
