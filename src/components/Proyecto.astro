@@ -1,0 +1,41 @@
+---
+import { type Proyecto } from "../Types/api";
+import Card from "./Card.astro";
+import SectionContainer from "./SectionContainer.astro";
+const { Titulo, Descripcion, Fotos, Año } = Astro.props;
+---
+
+<SectionContainer>
+  <Card class="dark:bg-blue-300">
+    <div>
+      <h2 class="text-4xl text-center">{Titulo}</h2>
+      <br />
+      <p class="text-xl text-pretty text-center">{Descripcion}</p>
+      <h3 class="text-2xl text-center">{Año}</h3>
+      <div class="carousel">
+        {Fotos && Fotos.length > 0 ? Fotos.map((foto:string, index:number) => (
+          <div class={`carousel-item ${index === 0 ? 'active' : ''}`}>
+            <img src={`/images/${foto}`} alt={Titulo} />
+          </div>
+        )) : null}
+      </div>
+      
+    </div>
+  </Card>
+</SectionContainer>
+
+<style>
+    .carousel {
+      display: flex;
+      overflow: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .carousel-item {
+      flex: none;
+      width: 100%;
+      scroll-snap-align: start;
+    }
+    
+    </style>

@@ -1,0 +1,35 @@
+[
+  {
+    "Titulo": "AGENCIA CHIREY BOCA DEL RIO, VER",
+    "Descripcion": "REMODELACIÓN QUE INCLUYEN ESTRUCTURA METÁLICA, OBRA CIVIL, INSTALACIONES Y ACABADOS",
+    "Fotos": ["Chirey1.jpg", "Chirey2.jpg", "Chirey3.jpg", "Chirey4.jpg"],
+    "Año": 2022
+  },
+  {
+    "Titulo": "AGENCIA HONDA ALCALDIA COYOACÁN, CDMX",
+    "Descripcion": "REMODELACIÓN QUE INCLUYEN ESTRUCTURA METÁLICA, OBRA CIVIL, INSTALACIONES Y ACABADOS",
+    "Fotos": ["Honda1.jpg", "Honda2.jpg", "Honda3.jpg", "Honda4.jpg"],
+    "Año": 2022
+  },
+  {
+    "Titulo": "AGENCIA MG ALCALDIA COYOACÁN, CDMX",
+    "Descripcion": "REMODELACIÓN QUE INCLUYEN ESTRUCTURA METÁLICA, OBRA CIVIL, INSTALACIONES Y ACABADOS",
+    "Fotos": ["MG1.jpg", "MG2.jpg", "MG3.jpg", "MG4.jpg"],
+    "Año": 2022
+  },
+  {
+    "Titulo": "EDIFICIO DE DEPARTAMENOS“ANZURES CALLE BUFON, COLONIA ANZURES, CDMX.",
+    "Descripcion": "ESTRUCTURA METÁLICA.",
+    "Fotos": [
+      "Dep_Anzures1.jpg","Dep_Anzures2.jpg","Dep_Anzures3.jpg","Dep_Anzures4.jpg"
+    ],
+    "Año": 2021
+  },{
+    "Titulo": "CENTRO DEPORTIVO EL ÁGORA, VERACRUZ, VER.",
+    "Descripcion": "ESTRUCTURA METÁLICA.",
+    "Fotos": [
+      "CENTRO DEPORTIVO EL ÁGORA1.jpg","CENTRO DEPORTIVO EL ÁGORA2.jpg","CENTRO DEPORTIVO EL ÁGORA3.jpg","CENTRO DEPORTIVO EL ÁGORA4.jpg"
+    ],
+    "Año": 2021
+  }
+]

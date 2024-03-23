@@ -1,13 +1,20 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import SectionContainer from "@/components/SectionContainer.astro";
-import Proyecto from "@/components/Proyecto.astro"
+import Proyecto from "@/components/Proyecto.astro";
+import ProyectosList from "public/ProyectosList.json";
 ---
 
 <Layout title="Proyectos">
-  <h2 class="text-6xl text-center font-serif underline decoration-black decoration-solid">
+  <h2
+    class="text-6xl text-center font-serif underline decoration-black decoration-solid"
+  >
     Proyectos
   </h2>
-    <Proyecto/>
+  <br>
+  {ProyectosList.map((proyecto, index) => (
+    proyecto.Titulo && proyecto.Descripcion && proyecto.Fotos && proyecto.Año ?
+    <Proyecto key={index} {...proyecto} /> : null
+  ))}
   <SectionContainer />
 </Layout>
